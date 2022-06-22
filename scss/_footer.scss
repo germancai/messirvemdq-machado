@@ -1,0 +1,31 @@
+@import "variables";
+
+
+.final{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    background-image: url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    footer{
+        div{
+            div{
+                ul{
+                    li{
+                        a{
+                            color: $color-principal;
+                        }
+                    } 
+                    
+                    
+                }
+            }
+        }
+    }  
+}
+.redes{
+    width: 24px;
+    height: 24px;    
+}

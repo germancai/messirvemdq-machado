@@ -1,0 +1,36 @@
+@import "variables";
+
+/*----productos----*/
+.productos{
+    text-align: center;
+    font-style: normal; 
+    h2{    
+        font-size: 30px;
+        font-style: bold;
+        text-decoration: underline;
+    }
+    div{
+        h3{
+            font-size: 700;
+            font-style: italic;
+            text-align: justify;    
+        }
+        div{
+            div{
+                background-color: $negro;
+                border: $borde;
+                overflow: hidden;
+                transition: all 1s;
+                &:hover{
+                    transform: scale(1.2,1.1);
+                }
+                img{
+                    height: 300px;
+                }
+            }
+        }    
+    }  
+}
+.tarjeta{
+    width: 18rem;
+}

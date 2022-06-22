@@ -1,0 +1,28 @@
+@import "variables";
+@import "header";
+@import "menu";
+@import "main";
+@import "contacto";
+@import "info";
+@import "nosotros";
+@import "productos";
+@import "footer";
+@import "mediaq";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+    box-sizing: border-box;
+}
+
+/*----body----*/
+body{
+    background-color: $fondo;
+    color: $color-principal;
+}
+
+
+

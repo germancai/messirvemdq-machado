@@ -1,0 +1,20 @@
+@import "variables";
+
+/*-----contacto----*/
+.contacto{
+    text-align: center;
+    p{    
+        padding: 10px;
+        margin: 10px;
+    }
+}
+.form{
+    text-align: justify;
+    margin: auto;  
+    width: 60%; 
+    padding: 10px;
+    border: 5px solid $color-principal;
+    div{
+        margin-top: 10px;
+    }
+}  

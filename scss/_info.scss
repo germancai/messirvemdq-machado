@@ -1,0 +1,39 @@
+@import "variables";
+
+/*----informacion----*/
+
+.info{
+    text-align: center;
+    font-style: normal;
+    background:  url(https://cdn.resfu.com/scripts/tmp_images/agencia-efe_multimedia_55008223330.multimedia.photos.55008223330003.file.jpg?size=1000x&lossy=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    width: 100%;
+    h2{    
+        font-size: 30px;
+        font-style: bold;
+        text-decoration: underline;
+    } 
+    h3{   
+        font-size: 700;
+        font-style:  italic;    
+    }
+    section{
+        text-align: justify;
+        line-height: 25px;
+        width: 50%;
+    }   
+}
+.pregunta{
+    font-size: 300;
+    font-style: bold;
+}
+.respuesta{
+    font-size: 300;
+    font-style: normal;
+    a{
+        color: $color-secundario;
+    }
+}

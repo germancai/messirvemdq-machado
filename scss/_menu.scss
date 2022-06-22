@@ -1,0 +1,32 @@
+@import "variables";
+
+/*----menu----*/
+.menu{
+    width: 100%;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{  
+            width: 20%;    
+            border: double $color-secundario; 
+            transition: all 1s;
+            &:hover{    
+                transform: scale(1,1,3);
+                background-color: #2a2a72;
+                background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+            }
+            a{
+                color: $color-secundario;
+                &:hover{
+                    color: $color-principal;
+                }
+            }   
+        }
+    }
+
+
+
+
+
+}
