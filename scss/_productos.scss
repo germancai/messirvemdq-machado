@@ -1,5 +1,3 @@
-@import "variables";
-
 /*----productos----*/
 .productos{
     text-align: center;
@@ -17,8 +15,8 @@
         }
         div{
             div{
-                background-color: $negro;
-                border: $borde;
+                background-color: map-get($variable, negro);
+                border: map-get($variable, borde);
                 overflow: hidden;
                 transition: all 1s;
                 &:hover{

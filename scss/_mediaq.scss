@@ -128,7 +128,7 @@
             li{
                 font-size: 1rem;
                 width: 100%; 
-                border: $borde;
+                border: map-get($variable,borde);
             }
         }
     }

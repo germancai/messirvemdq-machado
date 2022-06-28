@@ -1,5 +1,15 @@
-$fondo: rgb(9, 3, 100);
-$color-principal: antiquewhite;
-$color-secundario: rgb(0, 162, 255);
-$negro: black;
-$borde: 2px solid $color-secundario;
+$variable:(
+fondo: rgb(9, 3, 100),
+color-principal: antiquewhite,
+color-secundario: rgb(0, 162, 255),
+negro: black,
+borde: 2px solid rgb(0, 162, 255),
+);
+
+@mixin contenedor($df, $jc, $ai){
+    display: $df;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+

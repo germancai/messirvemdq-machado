@@ -1,4 +1,4 @@
-@import "variables";
+
 
 
 //section saludo
@@ -7,7 +7,7 @@
     text-align: center; 
     padding: 5px;
     img{   
-        border: $borde;
+        border: map-get($variable,borde);
     }   
 }
 
@@ -24,7 +24,7 @@
             width: 100%;   
             height: 300px;
             margin: 5px;
-            border: $borde;    
+            border: map-get($variable,borde);    
         }
     }
 }
@@ -32,9 +32,7 @@
 //section paginas
 
 .paginas{  
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    @include contenedor(flex, space-between, stretch);
     margin-top: 5px;
     iframe{
         width: 100%;   

@@ -1,4 +1,4 @@
-@import "variables";
+
 
 
 .final{
@@ -15,7 +15,7 @@
                 ul{
                     li{
                         a{
-                            color: $color-principal;
+                            color: map-get($variable,color-principal);
                         }
                     } 
                     

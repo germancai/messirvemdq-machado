@@ -34,6 +34,6 @@
     font-size: 300;
     font-style: normal;
     a{
-        color: $color-secundario;
+        color: map-get($variable,color-secundario);
     }
 }

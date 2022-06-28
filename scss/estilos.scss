@@ -20,8 +20,8 @@
 
 /*----body----*/
 body{
-    background-color: $fondo;
-    color: $color-principal;
+    background-color: map-get($variable,fondo);
+    color: map-get($variable,color-principal);
 }
 
 
