@@ -2,7 +2,7 @@
 
 /*-----contacto----*/
 .contacto{
-    text-align: center;
+    @extend .titulo-secundario;
     p{    
         padding: 10px;
         margin: 10px;

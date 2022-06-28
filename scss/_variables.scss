@@ -1,7 +1,7 @@
 $variable:(
 fondo: rgb(9, 3, 100),
 color-principal: antiquewhite,
-color-secundario: rgb(0, 162, 255),
+color-secundario: rgb(60, 255, 0),
 negro: black,
 borde: 2px solid rgb(0, 162, 255),
 );
@@ -13,3 +13,8 @@ borde: 2px solid rgb(0, 162, 255),
 }
 
 
+.titulo-secundario{
+    text-align: center;
+    font-size: 700;
+    font-style: italic;
+}
