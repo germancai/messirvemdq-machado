@@ -2,7 +2,10 @@
 
 /*-----contacto----*/
 .contacto{
-    @extend .titulo-secundario;
+    text-align: center;
+    h2{
+        @extend .titulo-secundario;
+    }
     p{    
         padding: 10px;
         margin: 10px;

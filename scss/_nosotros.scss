@@ -5,10 +5,10 @@
    
     div{
         h2{
-            font-size: 3rem;
+            @extend .titulo-secundario;
+  
             font-style: bold;
-            text-decoration: underline;
-            text-align: center;    
+            
         }
         div{
             div{

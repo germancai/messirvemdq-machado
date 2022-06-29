@@ -1,7 +1,8 @@
-.titulo-secundario, .contacto {
+.titulo-secundario, .productos h2, .nos div h2, .info h2, .contacto h2 {
   text-align: center;
-  font-size: 700;
+  font-size: 3rem;
   font-style: italic;
+  text-decoration: underline;
 }
 
 /*----titulo----*/
@@ -43,7 +44,7 @@
 }
 .menu ul li {
   width: 20%;
-  border: double rgb(60, 255, 0);
+  border: double rgb(0, 162, 255);
   transition: all 1s;
 }
 .menu ul li:hover {
@@ -52,7 +53,7 @@
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 .menu ul li a {
-  color: rgb(60, 255, 0);
+  color: rgb(0, 162, 255);
 }
 .menu ul li a:hover {
   color: antiquewhite;
@@ -89,6 +90,9 @@
 }
 
 /*-----contacto----*/
+.contacto {
+  text-align: center;
+}
 .contacto p {
   padding: 10px;
   margin: 10px;
@@ -105,12 +109,6 @@
   margin-top: 10px;
 }
 
-.titulo-secundario, .contacto {
-  text-align: center;
-  font-size: 700;
-  font-style: italic;
-}
-
 /*----informacion----*/
 .info {
   text-align: center;
@@ -123,9 +121,7 @@
   width: 100%;
 }
 .info h2 {
-  font-size: 30px;
   font-style: bold;
-  text-decoration: underline;
 }
 .info h3 {
   font-size: 700;
@@ -147,7 +143,7 @@
   font-style: normal;
 }
 .respuesta a {
-  color: rgb(60, 255, 0);
+  color: rgb(0, 162, 255);
 }
 
 /*----nosotros----*/
@@ -157,10 +153,7 @@
   align-items: center;
 }
 .nos div h2 {
-  font-size: 3rem;
   font-style: bold;
-  text-decoration: underline;
-  text-align: center;
 }
 .nos div div div p {
   text-align: center;
@@ -205,11 +198,6 @@
 .productos {
   text-align: center;
   font-style: normal;
-}
-.productos h2 {
-  font-size: 30px;
-  font-style: bold;
-  text-decoration: underline;
 }
 .productos div h3 {
   font-size: 700;
@@ -316,6 +304,12 @@
     background-size: cover;
     padding: 20px;
     width: 100%;
+  }
+  .info h2 {
+    font-size: 2rem;
+  }
+  .info h3 {
+    font-size: 500;
   }
   .info section {
     width: 80%;

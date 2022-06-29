@@ -2,10 +2,8 @@
 .productos{
     text-align: center;
     font-style: normal; 
-    h2{    
-        font-size: 30px;
-        font-style: bold;
-        text-decoration: underline;
+    h2{
+        @extend .titulo-secundario;         
     }
     div{
         h3{
