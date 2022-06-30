@@ -289,8 +289,8 @@
   .nos div h2 {
     font-size: 2rem;
   }
-  .nos div div div img {
-    margin: 10px;
+  .nos div div {
+    --bs-gutter-x: 0;
   }
   /*----main-productos----*/
   .productos div h3 {
