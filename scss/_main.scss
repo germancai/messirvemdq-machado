@@ -1,8 +1,6 @@
+/*---main---*/
 
-
-
-//section saludo
-
+/*section saludo*/
 .presentacion{
     text-align: center; 
     padding: 5px;
@@ -11,8 +9,7 @@
     }   
 }
 
-//section camisetas
-
+/*section camisetas*/
 .camisetas{
     h3{
         text-align: center;
@@ -29,8 +26,7 @@
     }
 }
 
-//section paginas
-
+/*section paginas*/
 .paginas{  
     @include contenedor(flex, space-between, stretch);
     margin-top: 5px;

@@ -59,6 +59,8 @@
   color: antiquewhite;
 }
 
+/*---main---*/
+/*section saludo*/
 .presentacion {
   text-align: center;
   padding: 5px;
@@ -67,6 +69,7 @@
   border: 2px solid rgb(0, 162, 255);
 }
 
+/*section camisetas*/
 .camisetas h3 {
   text-align: center;
   font-size: 700;
@@ -79,6 +82,7 @@
   border: 2px solid rgb(0, 162, 255);
 }
 
+/*section paginas*/
 .paginas {
   display: flex;
   justify-content: space-between;
@@ -158,8 +162,8 @@
 .nos div div div p {
   text-align: center;
   font-style: normal;
-  line-height: 150%;
-  font-size: 300;
+  line-height: 200%;
+  font-size: 500;
   padding: 30px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -221,6 +225,7 @@
   width: 18rem;
 }
 
+/*-----footer----*/
 .final {
   width: 100%;
   height: auto;
@@ -267,6 +272,11 @@
   .productos div div div {
     flex-flow: column wrap;
     margin-top: 5px;
+  }
+  /*-----nosotros------*/
+  .nos div div div p {
+    line-height: 150%;
+    font-size: 300;
   }
 }
 /*------------------medium-----------------*/

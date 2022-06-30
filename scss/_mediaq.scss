@@ -26,14 +26,28 @@
         div{
             display: flex;
             justify-content: space-around;
-            div{
-                flex-flow: column wrap;
-                margin-top: 5px;                
+                div{
+                    flex-flow: column wrap;
+                    margin-top: 5px;                
+                }
             }
-        }
-    }  
-  }
+        }  
+    }
+    /*-----nosotros------*/
+    .nos{       
+        div{            
+            div{
+                div{
+                    p{                        
+                        line-height: 150%;
+                        font-size: 300;  
+                    }
+                }
+            }
+        }  
+    }
 }
+
 
 
 /*------------------medium-----------------*/
