@@ -99,13 +99,13 @@
  
     /*----main-informacion----*/
     .info{   
-        background:  url(https://i.pinimg.com/originals/96/fa/4d/96fa4de7a5b4b34585c0bf4ca5a8f363.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.505)), url(https://i.pinimg.com/originals/17/91/91/179191957ea0017be3a0d7bfd4512bf9.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px;
         width: 100%;
-        font-weight: bold;
+        
         h2{
             font-size: 2rem;
         }
@@ -119,7 +119,8 @@
     }
     
     .pregunta{ 
-        font-size: 200;   
+        font-size: 200; 
+        font-weight: bold; 
     }
     .respuesta{        
         font-size: 200;   
@@ -127,7 +128,7 @@
     
     /*-----footer-----*/
     .final{       
-        font-weight: bold;
+        
         text-align: justify;
         footer{
             div{

@@ -267,12 +267,11 @@ body {
   width: 100%;
   height: auto;
   margin-top: 25px;
-  background-image: url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.337), rgba(0, 0, 0, 0.405)), url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.5rem;
-  font-weight: bold;
   text-align: center;
 }
 .final footer div p {
@@ -357,13 +356,12 @@ body {
   }
   /*----main-informacion----*/
   .info {
-    background: url(https://i.pinimg.com/originals/96/fa/4d/96fa4de7a5b4b34585c0bf4ca5a8f363.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.505)), url(https://i.pinimg.com/originals/17/91/91/179191957ea0017be3a0d7bfd4512bf9.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     width: 100%;
-    font-weight: bold;
   }
   .info h2 {
     font-size: 2rem;
@@ -377,13 +375,13 @@ body {
   }
   .pregunta {
     font-size: 200;
+    font-weight: bold;
   }
   .respuesta {
     font-size: 200;
   }
   /*-----footer-----*/
   .final {
-    font-weight: bold;
     text-align: justify;
   }
   .final footer div p {

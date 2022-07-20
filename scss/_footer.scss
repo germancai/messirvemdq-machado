@@ -3,12 +3,12 @@
     width: 100%;
     height: auto;
     margin-top: 25px;
-    background-image: url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.337), rgba(0, 0, 0, 0.405)), url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 1.5rem;
-    font-weight: bold;
+    
     text-align: center;   
     footer{
         div{
