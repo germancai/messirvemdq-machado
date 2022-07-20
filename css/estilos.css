@@ -338,6 +338,10 @@ body {
     height: 85vh;
     margin: 5px 10%;
   }
+  /*----main-contacto----*/
+  .contacto h2 {
+    font-size: 2rem;
+  }
   /*----main-nosotros----*/
   .nos div {
     width: 100%;
@@ -349,6 +353,9 @@ body {
     --bs-gutter-x: 0;
   }
   /*----main-productos----*/
+  .productos h2 {
+    font-size: 2rem;
+  }
   .productos div h3 {
     text-align: center;
     margin: 0;

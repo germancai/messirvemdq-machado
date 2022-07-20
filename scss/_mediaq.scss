@@ -71,9 +71,17 @@
             }
         }   
     }
+    /*----main-contacto----*/
+
+    .contacto{
+        h2{
+            font-size: 2rem;
+        }
+    }
+
+
     /*----main-nosotros----*/
     .nos{ 
-       
         div{
             width: 100%;
             
@@ -88,6 +96,9 @@
     
     /*----main-productos----*/
     .productos{
+        h2{
+            font-size: 2rem;
+        }
         div{
             h3{
                 text-align: center;
