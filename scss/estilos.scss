@@ -11,18 +11,7 @@
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'roboto' sans-serif;
-    box-sizing: border-box;
-}
 
-/*----body----*/
-body{
-    background-color: map-get($variable,fondo);
-    color: map-get($variable,color-principal);
-}
 
 
 

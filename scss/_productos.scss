@@ -7,9 +7,10 @@
     }
     div{
         h3{
-            font-size: 700;
+            font-size: 2rem;
             font-style: italic;
-            text-align: justify;    
+            text-align: justify; 
+            margin: 15px;
         }
         div{
             div{
@@ -23,10 +24,24 @@
                 img{
                     height: 300px;
                 }
+                div{
+                    h3{
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        text-align: center;     
+                    }
+                    a{
+                        background-color: map-get($variable, fondo);
+                        &:hover{
+                            background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+                        }
+                    }
+                }
             }
         }    
     }  
 }
 .tarjeta{
     width: 18rem;
+    margin: 20px;
 }

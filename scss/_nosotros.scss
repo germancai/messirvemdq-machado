@@ -5,10 +5,8 @@
    
     div{
         h2{
-            @extend .titulo-secundario;
-  
-            font-style: bold;
-            
+            @extend .titulo-secundario;  
+            font-style: bold;            
         }
         div{
             div{

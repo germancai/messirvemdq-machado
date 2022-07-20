@@ -11,12 +11,12 @@
     width: 100%;
     h2{    
         @extend .titulo-secundario;
-        font-style: bold;
-        
+        font-style: bold;        
     } 
     h3{   
         font-size: 700;
-        font-style:  italic;    
+        font-style:  italic; 
+        margin: 5px;   
     }
     section{
         text-align: justify;

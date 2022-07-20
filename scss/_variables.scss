@@ -11,11 +11,10 @@ borde: 2px solid rgb(0, 162, 255),
     justify-content: $jc;
     align-items: $ai;
 }
-
-
 .titulo-secundario{
     text-align: center;
     font-size: 3rem;
     font-style: italic;
     text-decoration: underline;
+    margin: 10px;
 }

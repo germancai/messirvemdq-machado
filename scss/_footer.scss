@@ -2,17 +2,24 @@
 .final{
     width: 100%;
     height: auto;
-    margin-top: 5px;
+    margin-top: 25px;
     background-image: url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;   
     footer{
         div{
+            p{
+                font-size: 1rem;                            
+            }
             div{
-                ul{
+                ul{                  
                     li{
                         a{
+                            text-decoration: none;
                             color: map-get($variable,color-principal);
                         }
                     } 
@@ -23,7 +30,16 @@
         }
     }  
 }
-.redes{
-    width: 24px;
-    height: 24px;    
+.redes{ 
+    ul{
+        font-weight: normal;
+        li{
+            img{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            }
+        }
+    }
+        
 }

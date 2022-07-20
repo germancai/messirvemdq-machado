@@ -19,5 +19,11 @@
     border: 5px solid map-get($variable,color-principal);
     div{
         margin-top: 10px;
+        button{
+            background-color: map-get($variable, color-secundario);
+            &:hover{
+                background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 94%);
+            }
+        }
     }
 }  

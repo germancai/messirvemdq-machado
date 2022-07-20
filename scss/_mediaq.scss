@@ -28,11 +28,11 @@
             justify-content: space-around;
                 div{
                     flex-flow: column wrap;
-                    margin-top: 5px;                
                 }
             }
         }  
     }
+ 
     /*-----nosotros------*/
     .nos{       
         div{            
@@ -91,9 +91,12 @@
         div{
             h3{
                 text-align: center;
+                margin: 0;
+                margin-bottom: 5px;
             }
         }
     }
+ 
     /*----main-informacion----*/
     .info{   
         background:  url(https://i.pinimg.com/originals/96/fa/4d/96fa4de7a5b4b34585c0bf4ca5a8f363.jpg);
@@ -102,6 +105,7 @@
         background-size: cover;
         padding: 20px;
         width: 100%;
+        font-weight: bold;
         h2{
             font-size: 2rem;
         }
@@ -122,8 +126,33 @@
     }
     
     /*-----footer-----*/
-    p{
-        font-size: 1rem;
+    .final{       
+        font-weight: bold;
+        text-align: justify;
+        footer{
+            div{
+                p{                    
+                    text-align: center; 
+                }
+            }
+        }  
+    }
+    .redes{ 
+        text-align: right;        
+        h6{
+            text-align: center;
+        }
+        ul{
+            font-weight: normal;
+            li{
+                img{
+                width: 40px;
+                height: 40px;
+                margin: 5px;
+                }
+            }
+        }
+            
     }
 }
 
@@ -157,14 +186,36 @@
             }
         }
     }
+     /*-----productos-----*/
+    
+
     /*-----footer-----*/
-    final{
+    .final{       
+        font-size: 1rem;
         footer{
             div{
-                p{
-                    font-size: 0.75rem;
+                p{                    
+                    text-align: center; 
+                }
+            }
+        }  
+    }
+    .redes{ 
+        text-align: right;
+        font-size: 0,5rem;        
+        h6{
+            text-align: center;
+        }
+        ul{
+         
+            li{
+                img{
+                width: 25px;
+                height: 25px;
+                
                 }
             }
         }
-    }   
+            
+    }
 }
